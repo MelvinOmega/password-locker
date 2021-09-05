@@ -17,9 +17,8 @@ As a user, I would like to:
 
 | Behavior |Input | Output|
 | :-------------- | :----------------: | --------------------: |
-| Display codes for navigation | **In terminal; $./password_locker.py** | Welcome to password locker, choose an option: ca-Create Account, li-Log In, ex-Exit |
-
-<!-- Welcome to password locker, choose an option: ca-Create Account, li-Log In, ex-Exit | -->
+| Display codes for navigation | **In terminal; $./password_locker.py** |
+Welcome to password locker, choose an option: ca-Create Account, li-Log In, ex-Exit |
 | Display prompt for creating an account | **Enter: ca** | Enter your first name, last name and password |
 | Display prompt for login in | **Enter: li** | Enter your account name and password |
 <!-- | Display codes for navigation | **Successful login** | Choose an option: cc - Create Credential, dc - Display Credentials, copy - Copy Credential, ex - exit |
@@ -27,3 +26,23 @@ As a user, I would like to:
 | Display a list of credentials | **Enter: dc** | Prints a list of saved credentials |
 | Display prompt for which credential to copy | **Enter: copy** | Enter the site name of the credential you wish to copy. | -->
 | Exit application | **Enter: ex** | Exit the current navigation stage |
+
+## Installation requirements
+* python3.8
+* pyperclip
+* pip
+
+## Cloning
+* on your terminal,
+ git clone https://github.com/MelvinOmega/password-locker/
+* cd password-locker
+
+## Running the application
+* in your terminal, 
+type $ python3 run.py
+
+## Technologies used
+* Python3.8
+
+## License
+MIT 2021 
