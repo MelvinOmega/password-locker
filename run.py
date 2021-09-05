@@ -12,13 +12,13 @@ def main():
         print('\n')
 
         if short_code == 'na':
-            print("create username")
+            print("Create Username")
             created_user_name = input()
 
-            print('create password')
+            print('Create Password')
             created_user_password = input()
 
-            print('confirm password')
+            print('Confirm Password')
             confirm_password = input()
 
             while confirm_password != created_user_password:
