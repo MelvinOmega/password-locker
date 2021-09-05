@@ -17,8 +17,9 @@ As a user, I would like to:
 
 | Behavior |Input | Output|
 | :-------------- | :----------------: | --------------------: |
-| Display codes for navigation | **In terminla; $./password_locker.py** |
-Welcome to password locker, choose an option: ca-Create Account, li-Log In, ex-Exit |
+| Display codes for navigation | **In terminal; $./password_locker.py** | Welcome to password locker, choose an option: ca-Create Account, li-Log In, ex-Exit |
+
+<!-- Welcome to password locker, choose an option: ca-Create Account, li-Log In, ex-Exit | -->
 | Display prompt for creating an account | **Enter: ca** | Enter your first name, last name and password |
 | Display prompt for login in | **Enter: li** | Enter your account name and password |
 <!-- | Display codes for navigation | **Successful login** | Choose an option: cc - Create Credential, dc - Display Credentials, copy - Copy Credential, ex - exit |
