@@ -1,6 +1,6 @@
 class User:
     '''
-    Generates user insances
+    Generates user details.
     '''
 
     user_list = []
@@ -14,5 +14,7 @@ class User:
         This is for saving a new user to the user_list.
         '''
         User.user_list.append(self)
+
+
 
 
