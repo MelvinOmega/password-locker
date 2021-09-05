@@ -59,7 +59,7 @@ def main():
             print('\n')
 
             while default_user_name != 'testuser' or default_user_password != '12345':
-                print("wrong userName or password. Username 'testuser' and password '09675'")
+                print("wrong userName or password. Username 'testuser' and password '12345'")
                 print("Enter user name")
                 default_user_name = input()
 
@@ -75,7 +75,7 @@ def main():
         elif short_code == 'ex':
             break
         else:
-            print ("enter valid code")  
+            print ("enter valid code!")  
 
 if __name__ == '__main__':
     
