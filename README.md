@@ -45,4 +45,5 @@ type $ python3 run.py
 * Python3.8
 
 ## License
-MIT 2021 
+* MIT License:
+* Copyright (c) **Melvin Omega**
